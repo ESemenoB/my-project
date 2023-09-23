@@ -1,0 +1,14 @@
+.body {
+  font-family: "Readex Pro", "PT Sans";
+}
+
+.body__wrapper {
+  @media only screen and (min-width: $tablet-width) {
+    width: 740px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: $desktop-width) {
+    width: 860px;
+    margin: 0 auto;
+  }
+}

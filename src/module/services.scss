@@ -1,0 +1,193 @@
+.services__wrapper {
+  @media only screen and (min-width: $tablet-width) {
+    max-width: 768px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    margin: auto;
+    max-width: 857px;
+  }
+}
+
+.services__list {
+  list-style: none;
+  padding: 0px;
+  @media only screen and (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 200px) 270px;
+    grid-template-rows: repeat(4, 200px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-template-columns: 400px repeat(2, 214px);
+    grid-template-rows: repeat(3, 245px);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    padding: 0px;
+  }
+}
+
+.services__item {
+  margin-bottom: 10px;
+  background-color: rgb(255 0 0 / 60%);
+  border-radius: 5px;
+}
+.services__tv {
+  background-image: url("./images/tv-mobile.png");
+
+  background-size: 70%;
+  background-position: 110% 97%;
+  background-repeat: no-repeat;
+  @media only screen and (min-width: $tablet-width) {
+    grid-area: 1 / 1 / 2 / 3;
+    background: rgb(255, 255, 255);
+    background-image: url("./images/tv.png");
+    background-size: 68%;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-area: 1 / 1 / 2 / 2;
+    background-size: 95%;
+  }
+}
+.services__laptop {
+  background-image: url("./images/laptop-mobile.png");
+  background-size: 70%;
+  background-position: 116% 97%;
+  background-repeat: no-repeat;
+  @media only screen and (min-width: $tablet-width) {
+    grid-area: 2 / 1 / 3 / 3;
+    background: rgb(255, 255, 255);
+    background-image: url("./images/laptop.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-area: 2 / 1 / 3 / 2;
+    background-size: 65%;
+  }
+}
+.services__telephone {
+  background-image: url("./images/telephone-mobile.png");
+  background-size: 70%;
+  background-position: 90% 92%;
+  background-repeat: no-repeat;
+  @media only screen and (min-width: $tablet-width) {
+    grid-area: 1 / 3 / 3 / 4;
+    background: rgb(255, 255, 255);
+    background-image: url("./images/telephone.png");
+    background-size: 85%;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-area: 1 / 3 / 3 / 4;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+.services__tehnika {
+  background-image: url("./images/tehnika-mobile.png");
+  background-size: 27%;
+  background-position: 90% 92%;
+  background-repeat: no-repeat;
+  @media only screen and (min-width: $tablet-width) {
+    grid-area: 3 / 2 / 4 / 4;
+    background: rgb(255, 255, 255);
+    background-image: url("./images/tehnika.png");
+    background-size: 70%;
+    background-position: 50% 117%;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-area: 3 / 1 / 4 / 3;
+    background-size: 64%;
+    background-position: 50% 130%;
+  }
+}
+.services__print {
+  background-image: url("./images/printer-mobile.png");
+  background-size: 65%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  @media only screen and (min-width: $tablet-width) {
+    grid-area: 3 / 1 / 5 / 2;
+    background: rgb(255, 255, 255);
+    background-image: url("./images/printer.png");
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-area: 1 / 2 / 3 / 3;
+  }
+}
+
+.services__refill {
+  background-repeat: no-repeat;
+
+  background-image: url("./images/refill.png");
+  background-size: 48%;
+  background-position: 95% 100%;
+
+  @media only screen and (min-width: $tablet-width) {
+    grid-area: 4 / 2 / 5 / 4;
+    background: rgb(255, 255, 255);
+    background-image: url("./images/zapravka.png");
+    background-size: 76%;
+    background-position: 50% -10%;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    grid-area: 3 / 3 / 4 / 4;
+
+    background-size: 100%;
+    background-position: center;
+  }
+}
+
+.servis__deskriptor {
+  display: block;
+  margin-top: -34px;
+  height: 49px;
+
+  @media only screen and (min-width: $tablet-width) {
+    background-color: rgba(255 103 96);
+    border-radius: 0px 0px 5px 5px;
+
+    width: auto;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    margin-top: -32px;
+  }
+}
+
+.servis__deskriptor--print {
+  @media only screen and (min-width: $tablet-width) {
+    margin-top: -32px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    margin-top: -34px;
+  }
+}
+
+.servis__deskriptor--refill {
+  @media only screen and (min-width: $tablet-width) {
+    margin-top: -35px;
+    height: 50px;
+  }
+  @media only screen and (min-width: $desktop-width) {
+    margin-top: -47px;
+  }
+}

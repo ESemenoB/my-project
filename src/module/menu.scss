@@ -1,0 +1,42 @@
+.menu {
+  font-family: "Readex Pro", "PT Sans";
+  font-size: 24px;
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+  }
+}
+
+.menu__list {
+  list-style: none;
+  padding: 0px;
+  margin: 10px 0px 10px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.menu__item {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.menu__element {
+  background-color: rgb(255 0 0 / 70%);
+  text-shadow: 3px -1px 20px rgb(255 255 255);
+
+  margin: 2px 0px 0px;
+  width: 304px;
+
+  @media (min-width: $tablet-width) {
+    width: 137px;
+    margin: 10px 0px 10px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    width: 164px;
+  }
+}

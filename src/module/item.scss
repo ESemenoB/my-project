@@ -1,0 +1,72 @@
+.item {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  box-shadow: 0px 0px 20px #6e6868;
+  border-radius: 5px;
+  padding: 11px 40px 60px 10px;
+  @media only screen and (min-width: $tablet-width) {
+    text-align: center;
+    padding: 0;
+    font-size: 19px;
+  }
+}
+
+.item__tv {
+  @media only screen and (min-width: $tablet-width) {
+    padding-top: 162px;
+  }
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 205px;
+  }
+}
+
+.item__laptop {
+  @media only screen and (min-width: $tablet-width) {
+    padding-top: 162px;
+  }
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 205px;
+  }
+}
+
+.item__telephone {
+  @media only screen and (min-width: $tablet-width) {
+    padding-top: 382px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 465px;
+  }
+}
+
+.item__tehnika {
+  @media only screen and (min-width: $tablet-width) {
+    padding-top: 162px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 205px;
+  }
+}
+.item__print {
+  @media only screen and (min-width: $tablet-width) {
+    padding-top: 380px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 467px;
+  }
+}
+.item__refill {
+  @media only screen and (min-width: $tablet-width) {
+    padding-top: 163px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 197px;
+  }
+}

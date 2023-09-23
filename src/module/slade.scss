@@ -1,0 +1,59 @@
+// .slade {
+//   // width: 300px;
+//   height: 400px;
+// }
+
+// .slide-0 {
+//   // background-color: aqua;
+//   // background-image: url("./images/screen-protector.jpeg");
+//   // background-image: url("./images/screen-protector2.png");
+
+//   background-size: 60%;
+//   background-repeat: no-repeat;
+//   background-position: 100% 0%;
+// }
+// .slide-1 {
+//   background-color: rgb(255 0 0 / 60%);
+// }
+
+// .slide-2 {
+//   background-color: rgb(11, 55, 112);
+// }
+
+// .slide-3 {
+//   background-color: rgb(25, 13, 193);
+// }
+
+// .slide-4 {
+//   background-color: blueviolet;
+// }
+
+// .slide-5 {
+//   background-color: coral;
+// }
+// // @media (max-width: $mobile-width-only) {
+// //   .slade {
+// //     display: none;
+// //   }
+// // }
+
+.slide {
+  font-size: 14px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(255 0 0 / 60%);
+  box-shadow: 0px 0px 10px #6e6868;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+  @media (max-width: $mobile-width-only) {
+    margin: 15px 0 15px;
+    padding: 20px 0 20px;
+  }
+
+  @media only screen and (min-width: $tablet-width) {
+    font-size: 16px;
+    margin: 20px 0 20px;
+    padding: 20px 0 20px;
+  }
+}
