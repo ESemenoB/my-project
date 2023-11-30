@@ -9,4 +9,5 @@
 node_modules/
 source/css/*.css
 source/css/*.map
+src/*/*
 Thumbs.dbi
