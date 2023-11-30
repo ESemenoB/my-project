@@ -3,6 +3,8 @@
 }
 
 .body__wrapper {
+  width: 305px;
+  margin: 0 auto;
   @media only screen and (min-width: $tablet-width) {
     width: 740px;
     margin: 0 auto;

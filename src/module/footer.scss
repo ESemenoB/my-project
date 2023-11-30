@@ -5,6 +5,10 @@
 
   @media only screen and (min-width: $tablet-width) {
     padding: 25px 10px 15px;
+    width: 740px;
+    @media only screen and (min-width: $desktop-width) {
+      width: 850px;
+    }
   }
 }
 
